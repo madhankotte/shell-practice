@@ -1,5 +1,5 @@
 #!/bin/bash
-persion1;madhan
+persion1:madhan
 persion2:anil
 
 echo "persion1" welcome to india persion2"
