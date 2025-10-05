@@ -4,4 +4,4 @@
 echo "please enter your PIN number"
 read PIN-NUMBER # here PIN-NUMBER is variable
 
-echo "your PIN number is $PIN-NUMBER"
+echo " PIN entered is $PIN-NUMBER"
