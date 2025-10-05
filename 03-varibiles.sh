@@ -1,6 +1,6 @@
 #! /bin/bash
 
-persion1;madhan
+persion1:madhan
 persion2:anil
 
 echo "persion1" Hi anil, how are you?"
