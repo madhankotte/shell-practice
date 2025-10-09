@@ -1,7 +1,7 @@
 #!/bin/bash
 
- USERID=$(id -u)
- R='\e[31m' # Red
+USERID=$(id -u)
+R='\e[31m' # Red
 G='\e[32m' # Green
 B='\e[34m' # Blue
 Y='\e[33m' # Yellow
