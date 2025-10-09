@@ -7,7 +7,7 @@
     fi
     VALIDATE() {  # Functions receivd input through args just shell script args
      if [ $? -ne 0 ]; then
-        echo -e " installing $2 ... $R is failure $N"
+        echo -e " installing $2 ... $Y is failure $N"
         exit 1
     else
         echo -e "installing $2.... $Y  is successful $N"
