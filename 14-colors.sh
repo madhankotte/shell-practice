@@ -5,5 +5,5 @@ B='\e[34m' # Blue
 Y='\e[33m' # Yellow
 N='\e[0m'  # No Color
 
-echo -e "${G}Hello world"
+echo -e "${G}Hello world ${N}"
 echo "check this colors"
