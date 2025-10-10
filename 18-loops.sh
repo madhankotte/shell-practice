@@ -31,5 +31,15 @@ VALIDATE() {  # Functions receivd input through args just shell script args
 
     for package in "$@"
     do
-        echo "package is $package"
+        check package list installed are not there
+        dnf list installed $package &>> $LOGS_FILE
+
+       # if exit status is 0, already installed. -n 0 need to install it
+        if [ $? -ne 0 ]; then
+            dnf install $package -y &>> $LOGS_FILE
+
+            VALIDATE $? "$package"
+        else
+            echo "$package is already exist ... $G skipping $N"
+        fi
     done
